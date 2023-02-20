@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class OpenLink : MonoBehaviour
 {
+    
     public string link;
 
     private void Start()
@@ -16,4 +17,4 @@ public class OpenLink : MonoBehaviour
     {
         Application.OpenURL(link);
     }
-}
+}//openLink

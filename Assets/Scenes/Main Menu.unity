@@ -2336,6 +2336,7 @@ GameObject:
   - component: {fileID: 583540256}
   - component: {fileID: 583540255}
   - component: {fileID: 583540254}
+  - component: {fileID: 583540258}
   m_Layer: 5
   m_Name: Contact Button
   m_TagString: Untagged
@@ -2428,7 +2429,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 583540256}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 583540258}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: set_useGUILayout
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &583540256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2467,6 +2480,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583540252}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
 --- !u!1 &584361880
 GameObject:
   m_ObjectHideFlags: 0
@@ -2506,11 +2520,15 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &584361882
+=======
+--- !u!114 &583540258
+>>>>>>> master
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 584361880}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2619,6 +2637,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591250797}
   m_CullTransparentMesh: 1
+=======
+  m_GameObject: {fileID: 583540252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d744e0ccdc843348be0832358dffb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  link: https://www.notlmuseum.ca/contact
+>>>>>>> master
 --- !u!1 &617122774
 GameObject:
   m_ObjectHideFlags: 0
@@ -3012,6 +3039,7 @@ GameObject:
   - component: {fileID: 704294237}
   - component: {fileID: 704294236}
   - component: {fileID: 704294235}
+  - component: {fileID: 704294239}
   m_Layer: 5
   m_Name: About Us Button
   m_TagString: Untagged
@@ -3104,7 +3132,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 704294237}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 704294239}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: set_useGUILayout
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &704294237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3143,6 +3183,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704294233}
   m_CullTransparentMesh: 0
+--- !u!114 &704294239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704294233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d744e0ccdc843348be0832358dffb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  link: https://www.notlmuseum.ca/about
 --- !u!1 &712705060
 GameObject:
   m_ObjectHideFlags: 0
@@ -3777,7 +3830,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 0.5647059, b: 0.6313726, a: 1}
     m_HighlightedColor: {r: 1, g: 0.5647059, b: 0.6313726, a: 0.40784314}
-    m_PressedColor: {r: 1, g: 0.5647059, b: 0.6313726, a: 0.70980394}
+    m_PressedColor: {r: 0.01886791, g: 0.01886791, b: 0.01886791, a: 0.78039217}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1

@@ -8,9 +8,4 @@ public class changeScene : MonoBehaviour
     {
     SceneManager.LoadScene(scene);
     }
-
-    public void GoToMainMenu()
-{
-    SceneManager.LoadScene("Main Menu");
-}
 }

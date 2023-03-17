@@ -5,16 +5,16 @@ using UnityEngine.UI;
 
 public class OpenLink : MonoBehaviour
 {
-    
     public string link;
 
     private void Start()
     {
         GetComponent<Button>().onClick.AddListener(OpenURL);
     }
-
+    //here once we attach this script to any buttons it will ask for action link under components section of 
+    //particular button and place the link there. 
     private void OpenURL()
     {
         Application.OpenURL(link);
     }
-}//openLink..
+}//OpenLink

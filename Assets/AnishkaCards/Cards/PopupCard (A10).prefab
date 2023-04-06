@@ -429,7 +429,7 @@ RectTransform:
   m_GameObject: {fileID: 2759849544551195619}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6057827461844599049}
@@ -567,7 +567,7 @@ Transform:
   - {fileID: 3472949165214783367}
   - {fileID: 6057827461844599049}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3660518088065597337
 GameObject:
@@ -1272,7 +1272,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 4f5ef032ba6a2462b8d477b16eec9d73, type: 3}
+  m_Texture: {fileID: 2800000, guid: 0f861d90d18634f299800c29d9b0ce1a, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1741,6 +1741,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5259732873759967993}
     m_Modifications:
+    - target: {fileID: 124410788684984052, guid: 2d415e0c357bf49b2bc09a91419203d0,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 0f861d90d18634f299800c29d9b0ce1a, type: 3}
     - target: {fileID: 916186472072162858, guid: 2d415e0c357bf49b2bc09a91419203d0,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

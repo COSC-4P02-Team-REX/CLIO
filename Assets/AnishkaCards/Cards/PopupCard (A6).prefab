@@ -961,7 +961,7 @@ RectTransform:
   m_GameObject: {fileID: 3666643778323060917}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5862915418954563718}
@@ -1208,7 +1208,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 076effd22f28a4e1f965d885c9880327, type: 3}
+  m_Texture: {fileID: 2800000, guid: b2fbe93e320bb44b09622080c022902c, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1601,7 +1601,7 @@ Transform:
   - {fileID: 6199069256601055879}
   - {fileID: 5862915418954563718}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9218768036136513146
 GameObject:
@@ -1846,6 +1846,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6921695480319037658, guid: bf6500d452914456fa86d4d4ec4298a9,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: b2fbe93e320bb44b09622080c022902c, type: 3}
     - target: {fileID: 7607141616504726411, guid: bf6500d452914456fa86d4d4ec4298a9,
         type: 3}
       propertyPath: m_Name

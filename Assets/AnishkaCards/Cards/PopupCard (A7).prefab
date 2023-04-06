@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: e26ad13a13cd349809e49d75f7ef677d, type: 3}
+  m_Texture: {fileID: 2800000, guid: f2d67ceb67e304673abb1746774b3f81, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -327,7 +327,7 @@ Transform:
   - {fileID: 2757026038531398914}
   - {fileID: 2365204909723852259}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2400990349206786793
 GameObject:
@@ -912,7 +912,7 @@ RectTransform:
   m_GameObject: {fileID: 6466619012577518664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2365204909723852259}
@@ -1852,6 +1852,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FullScreenCard (A7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8500134463973189792, guid: 7b234af7426ac4dbc8270b6302c49ff2,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: f2d67ceb67e304673abb1746774b3f81, type: 3}
     - target: {fileID: 8698402411048522000, guid: 7b234af7426ac4dbc8270b6302c49ff2,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

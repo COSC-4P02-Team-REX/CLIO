@@ -427,7 +427,7 @@ Transform:
   - {fileID: 1851277817670886247}
   - {fileID: 3364715312375249495}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3336502544663663832
 GameObject:
@@ -457,7 +457,7 @@ RectTransform:
   m_GameObject: {fileID: 3336502544663663832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3364715312375249495}
@@ -1200,7 +1200,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 55b725f42b9b344789934c04ab902faf, type: 3}
+  m_Texture: {fileID: 2800000, guid: c829dda29ae32492a81bd9a6e75777e5, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1872,6 +1872,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8060397576190268764, guid: 9cb97b1ba0ead4b59aef2db2935b40a9,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: c829dda29ae32492a81bd9a6e75777e5, type: 3}
     - target: {fileID: 8321331127740149901, guid: 9cb97b1ba0ead4b59aef2db2935b40a9,
         type: 3}
       propertyPath: m_Name

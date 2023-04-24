@@ -13,5 +13,10 @@ public class changeScene : MonoBehaviour
     {
     SceneManager.LoadScene("Main Menu");
     }
+
+    public void GoTo3DListing()
+    {
+    SceneManager.LoadScene("3D-Listing");
+    }
 }
 

@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 314758002}
   - component: {fileID: 314758001}
   - component: {fileID: 314758000}
+  - component: {fileID: 314758003}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -253,7 +254,7 @@ Camera:
   serializedVersion: 2
   m_ClearFlags: 2
   m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
-  m_projectionMatrixMode: 1
+  m_projectionMatrixMode: 2
   m_GateFitMode: 2
   m_FOVAxisMode: 0
   m_Iso: 200
@@ -275,7 +276,7 @@ Camera:
     height: 1
   near clip plane: 100
   far clip plane: 7000
-  field of view: 60
+  field of view: 26
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -300,14 +301,35 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314757999}
-  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 501, y: 2092, z: -1417}
+  m_LocalRotation: {x: 0.36166945, y: 0.2586318, z: 0.041750655, w: 0.8947411}
+  m_LocalPosition: {x: -597, y: 1479, z: -849}
   m_LocalScale: {x: 0, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 38.727, y: 39.195, z: 19.607}
+--- !u!114 &314758003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314757999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0decc5b6086ec4f64b5f52ab64542c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 314758001}
+  panSpeed: 30
+  zoomSpeed: 50
+  minZoomDistance: 250
+  maxZoomDistance: 3000
+  minX: -600
+  maxX: 600
+  minZ: -600
+  maxZ: 300
 --- !u!1 &896730352
 GameObject:
   m_ObjectHideFlags: 0

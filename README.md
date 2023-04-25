@@ -12,14 +12,14 @@ This is an Augmented Reality (AR) app developed for the NOTL Museum using Unity 
 
 ## Requirements
 
-- Unity 2020.3.0f1 or higher
-- iOS 13.0 or higher
-- Xcode 12.0 or higher
+- Unity 2021.3.0f1 or higher
+- iOS 11.0 or higher
+- Xcode 10.0 or higher
 
 ## Installation
 
 1. Clone the repository:
-```git clone https://github.com/yourusername/notl-museum-ar-app.git```
+```git clone git@github.com:COSC-4P02-Team-REX/CLIO.git```
 
 2. Open the project in Unity.
 

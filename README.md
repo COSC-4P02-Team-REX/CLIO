@@ -12,9 +12,9 @@ This is an Augmented Reality (AR) app developed for the NOTL Museum using Unity 
 
 ## Requirements
 
-- Unity 2020.3.0f1 or higher
-- iOS 13.0 or higher
-- Xcode 12.0 or higher
+- Unity 2021.3.0f1 or higher
+- iOS 11.0 or higher
+- Xcode 10.0 or higher
 
 ## Installation
 

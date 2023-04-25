@@ -8,6 +8,7 @@ public class CameraSwitcher : MonoBehaviour
     public Camera mainCamera;
     public Camera secondaryCamera;
     public Button switchButton;
+    public Button backButton;
     public GameObject arSession;
     public Vector3 newPosition;
     public Quaternion newRotation;
@@ -18,12 +19,14 @@ public class CameraSwitcher : MonoBehaviour
         secondaryCamera.enabled = false;
 
         switchButton.onClick.AddListener(SwitchCamera);
+        backButton.interactable = true;
     }
 
     void SwitchCamera()
     {
         mainCamera.enabled = !mainCamera.enabled;
         secondaryCamera.enabled = !secondaryCamera.enabled;
+        backButton.interactable = true;
 
         TransformARSession();
     }

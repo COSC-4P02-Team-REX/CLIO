@@ -19,7 +19,7 @@ This is an Augmented Reality (AR) app developed for the NOTL Museum using Unity 
 ## Installation
 
 1. Clone the repository:
-```git clone https://github.com/yourusername/notl-museum-ar-app.git```
+```git clone git@github.com:COSC-4P02-Team-REX/CLIO.git```
 
 2. Open the project in Unity.
 
